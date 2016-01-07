@@ -127,7 +127,6 @@ class GraphView(urwid.WidgetWrap):
         w = self.main_shadow(w)
         return w
 
-
 class GraphController:
     """
     A class responsible for setting up the model and view and running
